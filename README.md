@@ -10,7 +10,7 @@ Once you did that, you can type in terminal directly on your computer or using a
 ## Usage
 
 In this app was used the crypto compare API, to access the API you have to create an account on https://www.cryptocompare.com/ where you can the sign up and get the key.
-Once you got the key to use the API, you can go to file **http/index.ts** and change the key to your key where is written CRYPTO_COMPARE_KEY, as shown below.
+Once you got the key to use the API, you can go to file **http/index.ts** as shown below and create a variable containing your key, and after change the key to your key where is written process.env.CRYPTO_COMPARE_KEY or create an .env file in your project main directory and set and environmental variable CRYPTO_COMPARE_KEY and set your key value to it.
 
 ```
 import axios from 'axios';
