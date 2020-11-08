@@ -1,5 +1,3 @@
-## Name
-
 Crypto View
 
 ## Installation
