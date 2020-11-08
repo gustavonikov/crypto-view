@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+## Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Crypto View
+
+## Installation
+
+To get this project, you can use ``git clone https://github.com/gustavonikov/crypto-view.git`` or download the file zip folder directly to your computer.
+Once you did that, you can type in terminal directly on your computer or using an IDE, npm install, to install all the packages needed it to successful install.
+
+## Usage
+
+In this app was used the crypto compare API, to access the API you have to create an account on https://www.cryptocompare.com/ where you can the sign up and get the key.
+Once you got the key to use the API, you can go to file **http/index.ts** and change the key to your key where is written CRYPTO_COMPARE_KEY, as shown below.
+
+`` 
+import axios from 'axios';
+
+export const cryptoHttp = axios.create({
+    baseURL: 'https://min-api.cryptocompare.com/data',
+    headers: {
+        authorization: `Apikey ${process.env.CRYPTO_COMPARE_KEY}`
+    }
+});
+``
 
 ## Available Scripts
 
