@@ -3,7 +3,7 @@
 ## Installation
 
 To get this project, you can use ``git clone https://github.com/gustavonikov/crypto-view.git`` or download the file zip folder directly to your computer.
-Once you did that, you can type in terminal directly on your computer or using an IDE, npm install, to install all the packages needed it to successful install.
+Once you did that, you can type directly on your computer's terminal or using an IDE, npm install, to install all the packages needed it to successful install.
 
 ## Usage
 
