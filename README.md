@@ -12,7 +12,7 @@ Once you did that, you can type in terminal directly on your computer or using a
 In this app was used the crypto compare API, to access the API you have to create an account on https://www.cryptocompare.com/ where you can the sign up and get the key.
 Once you got the key to use the API, you can go to file **http/index.ts** and change the key to your key where is written CRYPTO_COMPARE_KEY, as shown below.
 
-`` 
+```
 import axios from 'axios';
 
 export const cryptoHttp = axios.create({
@@ -21,7 +21,7 @@ export const cryptoHttp = axios.create({
         authorization: `Apikey ${process.env.CRYPTO_COMPARE_KEY}`
     }
 });
-``
+```
 
 ## Available Scripts
 
