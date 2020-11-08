@@ -24,6 +24,7 @@ export const cryptoHttp = axios.create({
     }
 });
 ```
+After doing that, you should be ready to run the app with the available scripts.
 
 ## Available Scripts
 
