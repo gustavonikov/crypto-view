@@ -1,4 +1,4 @@
-Crypto View
+## Crypto View
 
 ## Installation
 
